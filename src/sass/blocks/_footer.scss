@@ -1,0 +1,313 @@
+footer {
+    position: relative;
+    width: 1920px;
+    height: 452px;
+    background-color: #271A1B;
+    .food {
+        /* Tagline */
+        /* Tagline */
+        position: absolute;
+        height: 39.71px;
+        left: 182px;
+        right: 57.92%;
+        top: calc(50% - 39.71px/2 - 98.47px);
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 34px;
+        color: #FFFFFF;
+    }
+    .food2 {
+        /* Tagline */
+        position: absolute;
+        height: 102px;
+        left: 182px;
+        right: 25.21%;
+        top: calc(50% - 102px/2 + 33.67px);
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 34px;
+        color: #FFFFFF;
+    }
+    .res {
+        /* copyright */
+        position: absolute;
+        width: 140px;
+        height: 18px;
+        left: 182px;
+        top: 368px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12.9667px;
+        line-height: 17px;
+        /* identical to box height, or 133% */
+        letter-spacing: 0.277857px;
+        color: #92989F;
+    }
+    .nav {
+        /* Title */
+        position: absolute;
+        height: 25.93px;
+        left: 30.73%;
+        right: 58.47%;
+        top: calc(50% - 25.93px/2 - 110.03px);
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        letter-spacing: 0.324167px;
+        color: #FFFFFF;
+    }
+    .menu {
+        /* List */
+        position: absolute;
+        height: 167px;
+        left: 30.73%;
+        right: 64.01%;
+        top: calc(50% - 167px/2 + 1.5px);
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 56px;
+        /* or 348% */
+        letter-spacing: 0.48625px;
+        a {
+            color: rgba(255, 255, 255, 0.85);
+            text-decoration: none;
+        }
+         :hover {
+            color: $main-color;
+        }
+    }
+    .menu2 {
+        /* List */
+        position: absolute;
+        height: 167px;
+        left: 39.16%;
+        right: 55.31%;
+        top: calc(50% - 167px/2 + 1.5px);
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 56px;
+        /* or 348% */
+        letter-spacing: 0.48625px;
+        a {
+            color: rgba(255, 255, 255, 0.85);
+            text-decoration: none;
+        }
+         :hover {
+            color: $main-color;
+        }
+    }
+    .online {
+        /* Title */
+        position: absolute;
+        height: 26px;
+        left: 54.69%;
+        right: 38.7%;
+        top: calc(50% - 26px/2 - 110px);
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        letter-spacing: 0.324167px;
+        color: #FFFFFF;
+    }
+    .mail {
+        position: absolute;
+        height: 0px;
+        left: 56.1%;
+        right: 35.52%;
+        top: calc(50% - 0px/2 - 66px);
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 0px;
+        letter-spacing: 0.48625px;
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    .inst {
+        /* List */
+        position: absolute;
+        height: 0px;
+        left: 56.1%;
+        right: 39.94%;
+        top: calc(50% - 0px/2 - 5px);
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 0px;
+        letter-spacing: 0.48625px;
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    .face {
+        /* List */
+        position: absolute;
+        height: 0px;
+        left: 56.1%;
+        right: 40.05%;
+        top: calc(50% - 0px/2 + 56px);
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 0px;
+        letter-spacing: 0.48625px;
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    .mail_img {
+        /* Vector */
+        position: absolute;
+        left: 54.88%;
+        right: 21.88%;
+        top: 34.20%;
+        bottom: 46.88%;
+    }
+    .inst_img {
+        /* Vector */
+        position: absolute;
+        left: 54.88%;
+        right: 28.12%;
+        top: 47.30%;
+        bottom: -22.92%;
+        /* border: 1.3px solid #FFFFFF; */
+    }
+    .face_img {
+        /* Vector */
+        position: absolute;
+        left: 54.88%;
+        right: 10.86%;
+        top: 60.30%;
+        bottom: 11.09%;
+    }
+    .phone {
+        /* Title */
+        position: absolute;
+        height: 26px;
+        left: 71.46%;
+        right: 25.21%;
+        top: calc(50% - 26px/2 - 110px);
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        letter-spacing: 0.324167px;
+        color: #FFFFFF;
+    }
+    .cal {
+        /* List */
+        position: absolute;
+        height: 70px;
+        left: 72.81%;
+        right: 20.16%;
+        top: calc(50% - 70px/2 - 66px);
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 69px;
+        /* identical to box height, or 384% */
+        letter-spacing: 0.48625px;
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    .footer_adres {
+        /* Title */
+        position: absolute;
+        height: 26px;
+        left: 71.46%;
+        right: 26.2%;
+        top: calc(50% - 26px/2 + 9px);
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        letter-spacing: 0.324167px;
+        color: #FFFFFF;
+    }
+    .adres {
+        /* List */
+        position: absolute;
+        height: 55px;
+        left: 72.86%;
+        right: 9.48%;
+        top: calc(50% - 55px/2 + 48.5px);
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 69px;
+        /* or 384% */
+        letter-spacing: 0.48625px;
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    .phone_img {
+        /* Vector */
+        position: absolute;
+        left: 71.56%;
+        right: 9.38%;
+        top: 33.58%;
+        bottom: 9.37%;
+    }
+    .adres_img {
+        /* Vector */
+        position: absolute;
+        left: 71.56%;
+        right: 27.99%;
+        top: 60.36%;
+        bottom: 36.28%;
+    }
+    .politic {
+        /* Sub Menu */
+        position: absolute;
+        width: 188px;
+        height: 18px;
+        left: 1373px;
+        top: 368px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12.9667px;
+        line-height: 17px;
+        /* identical to box height, or 133% */
+        text-align: right;
+        letter-spacing: 0.277857px;
+        color: #92989F;
+    }
+}

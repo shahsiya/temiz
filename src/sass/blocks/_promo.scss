@@ -1,0 +1,887 @@
+body {
+    margin: -8px;
+}
+
+
+/* html {
+    overflow-x: hidden;
+} */
+
+.promo {
+    position: relative;
+    width: 1920px;
+    height: 5521px;
+    background: url(../img/background.jpg) center (center/cover) no-repeat;
+    img {
+        position: absolute;
+        width: 128.23px;
+        height: 72.78px;
+        left: 877px;
+        top: 19px;
+    }
+    &__detal {
+        /* Подробнее о нас */
+        position: absolute;
+        width: 128px;
+        height: 21px;
+        left: 70px;
+        top: 617px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #FFFFFF;
+        transform: rotate(-90deg);
+        text-decoration: none;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__divider {
+        /* Line 1 */
+        position: absolute;
+        left: -2.02%;
+        right: 83.85%;
+        top: 16.20%;
+        bottom: 88.43%;
+        border: 1px solid #D6C5B0;
+        transform: rotate(90deg);
+    }
+    &__text {
+        /* Крымское качество */
+        position: absolute;
+        width: 1007px;
+        height: 140px;
+        left: 456px;
+        top: 282px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100px;
+        line-height: 140px;
+        color: #EAE1D7;
+    }
+    &__descr {
+        /* Лучшее колбасное производство в Республике Крым */
+        position: absolute;
+        width: 630px;
+        height: 32px;
+        left: 645px;
+        top: 441px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    &__btn {
+        position: absolute;
+        width: 206px;
+        height: 59px;
+        left: 857px;
+        top: 586px;
+        background: linear-gradient(95.34deg, #D6C5B0 -10.7%, #FFFFFF 98.36%);
+        box-shadow: 0px 15px 29px rgba(60, 28, 32, 0.36);
+        border-radius: 4px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #60292F;
+    }
+    &__production {
+        /* Производство «Temmiz» */
+        position: absolute;
+        width: 419px;
+        height: 46px;
+        left: 921px;
+        top: 1238px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 46px;
+        /* identical to box height */
+        color: #D6C5B0;
+    }
+    &__production_descr {
+        /* Производство «Temmiz» – один из крупнейших российских производителей продукции из мяса птицы, колбасных изделий, полуфабрикатов, мясных деликатесов и молочных продуктов. Основана в 2004 году. Товары под брендами Группы «Temmiz» продаются в 65 регионах России. Широкий ассортимент продукции выпускают пять птицефабрик и четыре мясоперерабатывающих предприятия, расположенные в Центральном, Сибирском, Уральском и Приволжском федеральных округах России. Все они – крупнейшие игроки на своих региональных рынках. «Temmiz» также производит сырье и корма для входящих в Группу перерабатывающих предприятий. */
+        position: absolute;
+        width: 817px;
+        height: 221px;
+        left: 921px;
+        top: 1330px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    &__prod {
+        /* Наш продукт */
+        position: absolute;
+        width: 225px;
+        height: 46px;
+        left: 847px;
+        top: 1982px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 46px;
+        /* identical to box height */
+        color: #A5A5A5;
+    }
+    &__prod_descr {
+        /* Lorem ipsum dolor sit */
+        position: absolute;
+        width: 238px;
+        height: 29px;
+        left: 1077px;
+        top: 2130px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 29px;
+        /* identical to box height */
+        color: #D6C5B0;
+    }
+    &__prod_descr2 {
+        /* Lorem ipsum dolor sit */
+        position: absolute;
+        width: 238px;
+        height: 29px;
+        left: 593px;
+        top: 2346px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 29px;
+        /* identical to box height */
+        text-align: right;
+        color: #D6C5B0;
+    }
+    &__prod_descr3 {
+        /* Lorem ipsum dolor sit */
+        position: absolute;
+        width: 238px;
+        height: 29px;
+        left: 1077px;
+        top: 2562px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 29px;
+        /* identical to box height */
+        color: #D6C5B0;
+    }
+    &__prod_txt {
+        /* Lorem ipsum dolor sit amet, cum reque integre instructior et. Sea duis malis assueverit eu, ne verear vituperatoribus sea, ei nominavi recusabo prodesset mel. */
+        position: absolute;
+        width: 421px;
+        height: 63px;
+        left: 1077px;
+        top: 2176px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    &__prod_txt2 {
+        /* Lorem ipsum dolor sit amet, cum reque integre instructior et. Sea duis malis assueverit eu, ne verear vituperatoribus sea, ei nominavi recusabo prodesset mel. */
+        position: absolute;
+        width: 421px;
+        height: 63px;
+        left: 410px;
+        top: 2392px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    &__prod_txt3 {
+        /* Lorem ipsum dolor sit amet, cum reque integre instructior et. Sea duis malis assueverit eu, ne verear vituperatoribus sea, ei nominavi recusabo prodesset mel. */
+        position: absolute;
+        width: 421px;
+        height: 63px;
+        left: 1077px;
+        top: 2608px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    &__prod_tov {
+        /* Наш товар */
+        /* Наш товар */
+        position: absolute;
+        width: 181px;
+        height: 46px;
+        left: 869px;
+        top: 2951px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 46px;
+        /* identical to box height */
+        color: #D6C5B0;
+    }
+    &__prod_btn {
+        /* Rectangle 57 */
+        position: absolute;
+        width: 218px;
+        height: 52px;
+        left: 851px;
+        top: 3725px;
+        border: 1px solid #D6C5B0;
+        box-sizing: border-box;
+        background: rgba(60, 28, 32, 0.36);
+        border-radius: 4px;
+        /* Смотреть весь каталог */
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+    .elips {
+        /* Ellipse 11 */
+        position: absolute;
+        width: 171px;
+        height: 171px;
+        left: 874px;
+        top: 2106px;
+    }
+    .elips2 {
+        /* Ellipse 12 */
+        position: absolute;
+        width: 171px;
+        height: 171px;
+        left: 874px;
+        top: 2322px;
+    }
+    .elips3 {
+        /* Ellipse 13 */
+        position: absolute;
+        width: 171px;
+        height: 171px;
+        left: 874px;
+        top: 2538px;
+    }
+    .one {
+        /* 1 */
+        position: absolute;
+        width: 17px;
+        height: 38px;
+        left: 883px;
+        top: 2254px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 33px;
+        line-height: 38px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+    .tu {
+        /* 2 */
+        position: absolute;
+        width: 17px;
+        height: 38px;
+        left: 883px;
+        top: 2470px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 33px;
+        line-height: 38px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+    .thri {
+        /* 3 */
+        position: absolute;
+        width: 17px;
+        height: 38px;
+        left: 883px;
+        top: 2693px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 33px;
+        line-height: 38px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+    .logo {
+        position: absolute;
+        left: 4.70%;
+        right: 92.49%;
+        top: 7.58%;
+        bottom: 92.08%;
+    }
+    .play {
+        position: absolute;
+        width: 49px;
+        height: 49px;
+        left: 1810px;
+        top: 482px;
+    }
+    .inst {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 1829px;
+        top: 680px;
+        transform: rotate(-90deg);
+    }
+    .vk {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 1829px;
+        top: 720px;
+    }
+    .face {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 1829px;
+        top: 758.82px;
+    }
+    .divider_right {
+        position: absolute;
+        left: 92.09%;
+        right: 0.68%;
+        top: 15.77%;
+        bottom: 95.53%;
+        border: 1px solid #D6C5B0;
+        transform: rotate(90deg);
+    }
+    .zet {
+        /* a-meat-counters-fulled-with-different-sausage-prod-4VWDDH2 1 */
+        position: absolute;
+        width: 545px;
+        height: 448px;
+        left: 275px;
+        top: 1345px;
+        border: 0.3px solid #9C464B;
+        box-sizing: border-box;
+        border-radius: 34px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .zet2 {
+        position: absolute;
+        width: 574px;
+        height: 492px;
+        left: 182px;
+        top: 1248px;
+        border: 0.3px solid #C9575E;
+        box-sizing: border-box;
+        border-radius: 34px;
+    }
+    .wrp {
+        position: absolute;
+        width: 248px;
+        height: 165px;
+        left: 422px;
+        top: 856px;
+        background: rgba(156, 70, 75, 0.0);
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .wrp:hover {
+        border: 0.3px solid #D5787D;
+        background: rgba(156, 70, 75, 0.33);
+        position: absolute;
+        width: 248px;
+        height: 165px;
+        left: 422px;
+        top: 856px;
+        background: rgba(156, 70, 75, 0.33);
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .wrp2 {
+        position: absolute;
+        width: 248px;
+        height: 165px;
+        left: 712px;
+        top: 856px;
+        background: rgba(156, 70, 75, 0.0);
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .wrp2:hover {
+        border: 0.3px solid #D5787D;
+        background: rgba(156, 70, 75, 0.33);
+        position: absolute;
+        width: 248px;
+        height: 165px;
+        left: 712px;
+        top: 856px;
+        background: rgba(156, 70, 75, 0.33);
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .wrp3 {
+        position: absolute;
+        width: 248px;
+        height: 165px;
+        left: 1002px;
+        top: 856px;
+        background: rgba(156, 70, 75, 0.0);
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .wrp3:hover {
+        border: 0.3px solid #D5787D;
+        background: rgba(156, 70, 75, 0.33);
+        position: absolute;
+        width: 248px;
+        height: 165px;
+        left: 1002px;
+        top: 856px;
+        background: rgba(156, 70, 75, 0.33);
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .wrp4 {
+        position: absolute;
+        width: 248px;
+        height: 165px;
+        left: 1290px;
+        top: 856px;
+        background: rgba(156, 70, 75, 0.0);
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .wrp4:hover {
+        border: 0.3px solid #D5787D;
+        background: rgba(156, 70, 75, 0.33);
+        position: absolute;
+        width: 248px;
+        height: 165px;
+        left: 1290px;
+        top: 856px;
+        background: rgba(156, 70, 75, 0.33);
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .num {
+        position: absolute;
+        width: 82px;
+        height: 94px;
+        left: 505px;
+        top: 862px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 81.9529px;
+        line-height: 94px;
+        color: #D6C5B0;
+    }
+    .sign {
+        position: absolute;
+        width: 167px;
+        height: 34px;
+        left: 468px;
+        top: 956px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .num2 {
+        /* 6 */
+        position: absolute;
+        width: 41px;
+        height: 94px;
+        left: 819px;
+        top: 862px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 81.9529px;
+        line-height: 94px;
+        text-align: center;
+        color: #D6C5B0;
+    }
+    .sign2 {
+        /* Lorem ipsum dolar sit amet */
+        position: absolute;
+        width: 167px;
+        height: 34px;
+        left: 756px;
+        top: 956px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .num3 {
+        /* 211 */
+        position: absolute;
+        width: 120px;
+        height: 94px;
+        left: 1062px;
+        top: 862px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 81.9529px;
+        line-height: 94px;
+        text-align: center;
+        color: #D6C5B0;
+    }
+    .sign3 {
+        /* Lorem ipsum dolar sit amet */
+        position: absolute;
+        width: 167px;
+        height: 34px;
+        left: 1044px;
+        top: 956px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .num4 {
+        /* 45 */
+        position: absolute;
+        width: 82px;
+        height: 94px;
+        left: 1369px;
+        top: 862px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 81.9529px;
+        line-height: 94px;
+        text-align: center;
+        color: #D6C5B0;
+    }
+    .sign4 {
+        /* Lorem ipsum dolar sit amet */
+        position: absolute;
+        width: 167px;
+        height: 34px;
+        left: 1332px;
+        top: 956px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .hamburger {
+        position: absolute;
+        width: 40px;
+        height: 24px;
+        left: 61px;
+        top: 44px;
+        span_1 {
+            position: absolute;
+            width: 40px;
+            height: 2px;
+            left: 61px;
+            top: 44px;
+            background: #FFFFFF;
+        }
+        span_2 {
+            position: absolute;
+            width: 40px;
+            height: 2px;
+            left: 61px;
+            top: 55px;
+            background: #FFFFFF;
+        }
+        span_3 {
+            position: absolute;
+            width: 15px;
+            height: 2px;
+            left: 61px;
+            top: 66px;
+            background: #FFFFFF;
+        }
+    }
+    .phone {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 1679px;
+        top: 55px;
+    }
+    .cal {
+        /* +7 (978) 795-13-14 */
+        position: absolute;
+        width: 151px;
+        height: 22px;
+        left: 1708px;
+        top: 52px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 22px;
+        /* identical to box height */
+        text-align: right;
+        color: #FFFFFF;
+        text-decoration: none;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    .icon {
+        /* Колбасные изделия */
+        position: absolute;
+        width: 89px;
+        height: 42px;
+        left: 994px;
+        top: 1593px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    .icon2 {
+        /* Сырокопченные изделия */
+        position: absolute;
+        width: 125px;
+        height: 42px;
+        left: 1297px;
+        top: 1593px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    .icon3 {
+        /* Деликатесы */
+        position: absolute;
+        width: 92px;
+        height: 21px;
+        left: 1573px;
+        top: 1592px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+    .icons {
+        position: absolute;
+        width: 73px;
+        height: 73px;
+        left: 903px;
+        top: 1576px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .icons2 {
+        position: absolute;
+        width: 73px;
+        height: 73px;
+        left: 1202px;
+        top: 1576px;
+    }
+    .icons3 {
+        position: absolute;
+        width: 73px;
+        height: 73px;
+        left: 1479px;
+        top: 1576px;
+    }
+    .Rectangle {
+        position: absolute;
+        width: 179px;
+        height: 59px;
+        left: 921px;
+        top: 1734px;
+    }
+    .astr {
+        /* Group 6 */
+        position: absolute;
+        width: 505px;
+        height: 295px;
+        left: 182px;
+        top: 3049px;
+    }
+    .astr2 {
+        /* Rectangle 51 */
+        position: absolute;
+        width: 505px;
+        height: 295px;
+        left: 707px;
+        top: 3049px;
+    }
+    .astr3 {
+        position: absolute;
+        width: 505px;
+        height: 295px;
+        left: 1232px;
+        top: 3049px;
+    }
+    .astr4 {
+        /* Rectangle 51 */
+        position: absolute;
+        width: 505px;
+        height: 295px;
+        left: 182px;
+        top: 3378px;
+    }
+    .astr5 {
+        /* Rectangle 51 */
+        position: absolute;
+        width: 505px;
+        height: 295px;
+        left: 707px;
+        top: 3378px;
+    }
+    .astr6 {
+        position: absolute;
+        width: 505px;
+        height: 295px;
+        left: 1232px;
+        top: 3378px;
+    }
+    &__buy {
+        /* Где купить? */
+        position: absolute;
+        width: 204px;
+        height: 46px;
+        left: 858px;
+        top: 3925px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 46px;
+        /* identical to box height */
+        color: #D6C5B0;
+    }
+    .buy {
+        /* Rectangle 57 */
+        position: absolute;
+        width: 1555px;
+        height: 627px;
+        left: 182px;
+        top: 4039px;
+        border-radius: 29px;
+    }
+    &__netvork {
+        /* Остались вопросы? */
+        position: absolute;
+        width: 251px;
+        height: 21px;
+        left: 874px;
+        top: 5200px;
+        font-family: Tinos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 31px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+    .netvork {
+        /* Ellipse 14 */
+        position: absolute;
+        width: 95px;
+        height: 95px;
+        left: 706px;
+        top: 5270px;
+        background: #FFFFFF;
+        border-radius: 65%;
+    }
+    .network:hover {
+        position: absolute;
+        width: 95px;
+        height: 95px;
+        left: 706px;
+        top: 5270px;
+        background: $main-color;
+        border-radius: 65%;
+    }
+    .netvork2 {
+        /* Ellipse 15 */
+        position: absolute;
+        width: 95px;
+        height: 95px;
+        left: 844px;
+        top: 5270px;
+        background: #FFFFFF;
+        border-radius: 65%;
+    }
+    .netvork2:hover {
+        position: absolute;
+        width: 95px;
+        height: 95px;
+        left: 844px;
+        top: 5270px;
+        background: $main-color;
+        border-radius: 65%;
+    }
+    .netvork3 {
+        /* Ellipse 16 */
+        position: absolute;
+        width: 95px;
+        height: 95px;
+        left: 982px;
+        top: 5270px;
+        background: #FFFFFF;
+        border-radius: 65%;
+    }
+    .netvork4 {
+        /* Ellipse 17 */
+        position: absolute;
+        width: 95px;
+        height: 95px;
+        left: 1120px;
+        top: 5270px;
+        background: #FFFFFF;
+        border-radius: 65%;
+    }
+    .netvork5 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 877px;
+        top: 5303px;
+    }
+}
